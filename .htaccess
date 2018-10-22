@@ -1,0 +1,6 @@
+# Permitir ingresar sin utilizar public en la url
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^$ public/ [L]
+    RewriteRule (.*) public/$1 [L]
+</IfModule>
