@@ -1,1 +1,2 @@
-<h1>HOLA DESDE LA VISTA</h1>
+<p>HOLA DESDE LA VISTA</p>
+<h1><?php echo $data['titulo'] ?></h1>
