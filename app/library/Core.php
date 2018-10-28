@@ -6,7 +6,7 @@
 // Ejemplo: /articulo/actualizar/4
 class Core{
     // Inicializar atributos por defecto
-    protected $controller = 'paginacontroller';
+    protected $controller = 'homecontroller';
     protected $method = 'index';
     protected $parameter = [];
 
