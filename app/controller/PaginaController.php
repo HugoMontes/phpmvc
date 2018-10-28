@@ -1,12 +1,16 @@
 <?php
-class PaginaController{
+class PaginaController extends Controller{
 
     public function __construct(){
         echo 'Controlador paginas cargado <br>';
     }
 
     public function index(){
-        echo 'Metodo index <br>';
+        // echo 'Metodo index <br>';
+        // Probar con una vista inexistente
+        // $this->view('informacion');
+        // Probar con una vista que existe
+        $this->view('pagina/index');
     }
 
     public function articulos(){
